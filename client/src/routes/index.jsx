@@ -6,4 +6,12 @@ export const router = createBrowserRouter([
     path: '/',
     element: <UiTest />,
   },
+  {
+    path: '/produto',
+    element: <UiTest />,
+  },
+  {
+    path: '/contato',
+    element: <UiTest />,
+  },
 ]);
