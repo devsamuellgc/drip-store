@@ -1,3 +1,4 @@
+import FilterOption from './FilterOptions';
 import NavBarLinks from './NavBarLinks';
 
 export default function NavLinks(props) {
@@ -15,6 +16,7 @@ export default function NavLinks(props) {
         <NavBarLinks path="/" title="Home" />
         <NavBarLinks path="/produto" title="Produto" />
         <NavBarLinks path="/contato" title="Contato" />
+        <FilterOption />
       </div>
     </div>
   );
