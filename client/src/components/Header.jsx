@@ -6,7 +6,7 @@ import NavLinks from './NavLinks';
 export default function Header() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
   return (
-    <nav className={`flex flex-col`}>
+    <nav className={`flex flex-col ${isOpenMenu && 'fixed top-0 left-0 right-0 z-50'}`}>
       <div className="flex justify-between items-center bg-white p-5">
         <img
           onClick={() => setIsOpenMenu(!isOpenMenu)}
