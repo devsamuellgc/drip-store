@@ -1,6 +1,6 @@
 export default function Card(props) {
   return (
-    <div className={`h-[439px] max-w-72 flex flex-col gap-3`}>
+    <div className={`h-[439px] max-w-[288px] flex flex-col gap-3`}>
       <div
         className={`
             w-full 
